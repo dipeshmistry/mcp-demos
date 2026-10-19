@@ -1,0 +1,36 @@
+# Model Context Protocol (MCP) Explanation 
+  
+## What is MCP?  
+  
+The Model Context Protocol (MCP) is an open standard developed by Anthropic that enables AI assistants like Claude to securely connect with external data sources and tools. 
+It provides a standardized way for AI models to access and interact with various systems, databases, and services while maintaining security and user control. 
+  
+## Key Features  
+  
+- Standardized Communication: MCP establishes a common protocol for AI models to communicate with external systems  
+- Security First: Built-in security measures to protect user data  
+- Tool Integration: Allows AI assistants to use various tools and services  
+- Extensibility: Designed to be extensible for custom integrations 
+  
+## How MCP Works  
+  
+1. Connection Establishment: The AI assistant establishes a secure connection with MCP-compatible servers  
+2. Capability Discovery: The assistant discovers available tools and data sources  
+3. Request Processing: The assistant makes requests through the MCP protocol  
+4. Response Handling: Results are returned in a standardized format 
+  
+## Benefits  
+  
+- Enhanced Capabilities: AI assistants can access real-time data  
+- Consistent Interface: One protocol for multiple AI systems  
+- User Control: Users maintain control over data access  
+- Scalability: Handles simple to complex enterprise integrations 
+  
+## Use Cases  
+  
+- Database queries and analysis  
+- File system operations  
+- Web scraping and API interactions  
+- Integration with business tools  
+- Real-time data processing  
+- Custom tool development 

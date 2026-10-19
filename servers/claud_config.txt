@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "terminal": {
+            "command": "uv",
+            "args": [
+                "--directory", "D:\\Projects\\AI & ML\\mcp\\servers\\terminal_server",
+                "run", 
+                "terminal_server.py"
+            ]
+        }
+    }
+}
+
+

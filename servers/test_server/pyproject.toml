@@ -1,0 +1,15 @@
+[project]
+name = "test-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "fastmcp>=2.11.3",
+    "mcp",
+    "pyjwt>=2.10.1",
+]
+
+[tool.uv.sources]
+mcp = { git = "https://github.com/modelcontextprotocol/python-sdk.git" }

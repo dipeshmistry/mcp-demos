@@ -1,0 +1,15 @@
+[project]
+name = "test-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "google>=3.0.0",
+    "google-genai>=1.29.0",
+    "mcp",
+]
+
+[tool.uv.sources]
+mcp = { git = "https://github.com/modelcontextprotocol/python-sdk.git" }
